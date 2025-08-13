@@ -13,4 +13,4 @@ The input dataset for this project was the NGA West2 ground motion dataset (http
 ## Instructions
 The `.py` files in this repository can be imported for use and have no function when ran independently. `validation.ipynb` can be ran, assuming the `.py` files are saved in the same directory for import, and user instructions are provided within. In summary, to run `validation.ipynb`, the user must specify filepaths to the two input datasets and a sub-folder directory to save model outputs in (or read previous model outputs from). If ```retrain=True```, then a new instance of the model will be trained and saved in ```data_dir```, otherwise previous model outputs will be read from ```data_dir```. All validation found in the final report is subsequently performed with the trained model.
 ### *Requirements*
-*For this project, I used Python version 3.10.6 and TensorFlow version ...*
+*For this project, I used Python version 3.10.6 and TensorFlow version 2.16.1.*
